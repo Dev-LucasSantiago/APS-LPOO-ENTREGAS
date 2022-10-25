@@ -6,6 +6,11 @@ public class Pessoa {
     private int RG;
     private int idade;
 
+    public Pessoa(String nome,String CPF) {
+        this.nome = nome;
+        this.CPF = CPF;
+    }
+
     public String getNome() {
         return nome;
     }

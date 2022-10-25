@@ -6,6 +6,10 @@ public class Moto extends Entregador{
     private String cor;
     private String modelo;
 
+    public Moto(String nome, String CPF) {
+        super(nome, CPF);
+    }
+
     @Override
     public void entregar(){
         System.out.println("Entrega realizada de moto!");

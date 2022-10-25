@@ -1,8 +1,15 @@
 package LuksEntregas;
 
-public abstract class Entregador extends Pessoa{
+public class Entregador extends Pessoa{
+
     private int CNH;
+
     private String CatHab;
 
-    public abstract void entregar();
+    public Entregador(String nome, String CPF) {
+        super(nome, CPF);
+    }
+
+    public void entregar(){
+    }
 }
