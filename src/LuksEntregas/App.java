@@ -18,18 +18,19 @@ public class App {
 
 
 
-        if(qtdPct >= 10){
-            System.out.println("Será necessário algumas viagens de carro");
+        if(qtdPct >= 20){
+            System.out.println("============================================");
+            System.out.println("Será necessário algumas viagens de carro!");
         }
 
         if(qtdPct >= 5){
             Entregador entregador = new Carro("Vitor Gabriel","088.194.366-79");
-            entregador.entregar();
+            entregador.entregar(entPct,entPct);
         }
 
         if(qtdPct < 5){
             Entregador entregador = new Moto("Adriana","057.899.259-82");
-            entregador.entregar();
+            entregador.entregar(entPct,entPct);
         }
     }
 }

@@ -11,8 +11,10 @@ public class Carro extends Entregador{
     }
 
     @Override
-    public void entregar(){
-        System.out.println("Entrega realizada de Carro!");
+    public void entregar(String endRecebimento, String endEntrega){
+        System.out.println("============================================");
+        System.out.println("Entrega será realizada de Carro!\n"+"Pelo entregador(a): "+getNome());
+        System.out.println("No endereço: "+endEntrega);
     }
 
     public String getPlaca() {

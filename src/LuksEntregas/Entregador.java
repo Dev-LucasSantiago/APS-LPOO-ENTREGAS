@@ -10,6 +10,6 @@ public class Entregador extends Pessoa{
         super(nome, CPF);
     }
 
-    public void entregar(){
+    public void entregar(String endRecebimento, String endEntrega){
     }
 }
